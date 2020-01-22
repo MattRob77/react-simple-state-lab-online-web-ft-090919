@@ -12,8 +12,8 @@ export default class Cell extends Component {
   handleClick = () => {
     this.setState({
       color: "#333"
-    });
-  };
+    })
+  }
 
   render () {
     return (
@@ -21,7 +21,7 @@ export default class Cell extends Component {
         className="cell"
         style={{ backgroundColor: this.state.color }}
         onClick={this.handleClick}
-      ></div>
+     ></div>
     );
   }
 }
